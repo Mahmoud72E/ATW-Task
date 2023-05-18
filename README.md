@@ -39,28 +39,35 @@ This project implements a basic Laravel authentication system with CRUD function
    git clone https://github.com/Mahmoud72E/ATW-Task.git
 
 2. Navigate to the project directory:
+    ```bash
     cd laravel-authentication-system
 
 3. Install the dependencies:
+    ```bash
     composer install
 
 4. Create a new MySQL database for the project.
 
 5. Copy the .env.example file to .env:
+    ```bash
     cp .env.example .env
 
 6. Update the .env file with your database credentials and other necessary configurations.
 
 7. Generate an application key:
+    ```bash
     php artisan key:generate
 
 8. Run the database migrations and seed the initial data:
+    ```bash
     php artisan migrate --seed
 
 9. Create a symbolic link to the storage directory:
+    ```bash
     php artisan storage:link
 
 10. Start the development server:
+    ```bash
     php artisan serve
 
 11. Open your web browser and access the application at http://localhost:8000.
